@@ -1,0 +1,77 @@
+{
+  "name": "777-linchpin-claim-dashboard",
+  "description": "Project linchpin by Web3vm is a one-stop-shop for decentralized applications.",
+  "version": "0.1.0",
+  "author": "Youssef Khouidi (x5engine) and Scott Stevenson <scott@onelaw.us>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tenfinney/linchpin-claim-dashboard"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@dicebear/avatars": "^3.1.4",
+    "@dicebear/avatars-identicon-sprites": "^2.1.4",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "3box": "^1.20.3",
+    "3box-profile-edit-react": "0.0.9",
+    "@textile/hub": "^0.4.1",
+    "@textile/threads": "^0.3.5",
+    "@textile/threads-core": "^0.1.33",
+    "@toruslabs/torus-embed": "^1.8.1",
+    "@types/react": "16.9.23",
+    "@walletconnect/web3-provider": "^1.1.0",
+    "authereum": "0.0.4-beta.164",
+    "chart.js": "2.9.3",
+    "classnames": "2.2.6",
+    "ethereum-blockies-base64": "^1.0.2",
+    "history": "4.10.1",
+    "identicon.js": "^2.3.3",
+    "jdenticon": "^3.0.1",
+    "lodash": "^4.17.19",
+    "now": "^16.7.3",
+    "node-sass": "4.13.1",
+    "perfect-scrollbar": "1.5.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.0",
+    "react-chartjs-2": "2.9.0",
+    "react-dom": "16.13.0",
+    "react-google-maps": "9.4.5",
+    "react-notification-alert": "0.0.12",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.0",
+    "reactstrap": "8.4.1",
+    "unique-names-generator": "^4.3.0",
+    "uuid4": "^2.0.2",
+    "web3": "^1.2.11",
+    "web3modal": "^1.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-scss": "node-sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css",
+    "minify-sass": "node-sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "optionalDependencies": {
+    "@types/googlemaps": "3.39.3",
+    "@types/markerclustererplus": "2.1.33",
+    "eslint-plugin-flowtype": "3.13.0",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8"
+  }
+}
