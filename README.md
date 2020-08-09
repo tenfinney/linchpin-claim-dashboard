@@ -19,11 +19,13 @@ Final Submission 08/06/2020
 
 #### Hype video - presentation with Flyover audio - HackFS linchpin Longer Form Demo - 7-minutes no voiceover. includes bonus Swag0x intro flythrough: https://vimeo.com/445652498
 
-
 #### Chill video - presentation with Hungry 5 audio - HackFS linchpin Longer Form Demo - 7-minutes no voiceover. includes bonus Swag0x intro flythrough:  https://vimeo.com/445390419
 
 #### Project linchpin HomePage: [https://i.imgur.com/onjO2ee.png](https://i.imgur.com/onjO2ee.png)
 
+#### Project linchpin ClaimDashboard Code: [https://github.com/tenfinney/linchpin-claim-dashboard](https://github.com/tenfinney/linchpin-claim-dashboard)
+
+#### Project linchpin NFT Mint and Manage Code: [https://github.com/tenfinney/linchpin-nft-mint-and-manage](https://github.com/tenfinney/linchpin-nft-mint-and-manage)
 
 ---
 
